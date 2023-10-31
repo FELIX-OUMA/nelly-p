@@ -1,0 +1,324 @@
+
+/* nav bar styling starts from here */
+button{
+  background-color: #e2dedc;
+  color: #5a2d1f;
+  border: #5a2d1f solid 2px;
+  border-radius: 5px;
+  transition: 1s;
+}
+button :hover{
+  color: #e2dedc;
+  background-color: #5a2d1f;
+  border: #629b35 solid 1px;
+}
+
+
+.navbars{
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e2dedc;
+  padding-left: 700px;
+  position: fixed;
+  padding-right: 100px;
+  padding-top: 20px;
+
+
+
+}
+.navbars a{
+  text-decoration: none;
+  color: #5a2d1f;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 10px;
+  transition: 2s;
+  margin-top: 20px;
+}
+
+/*  home page styling begin  from here */
+.home{
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+
+}
+
+
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #629b35;
+  font-weight: 700;
+  font-size: 47px;
+
+
+}
+.homeparagraph p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #5a2d1f;
+  font-weight: 600;
+  font-size: 26px;
+
+}
+.creamy{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #e2dedc;
+  color: #5a2d1f;
+  border: 1.5px solid #5a2d1f;
+  box-sizing: border-box;
+  height: 35px;
+  width: 300px;
+  font-style: italic;
+
+}
+.shopNow{
+  height: 30px;
+  width: 100px;
+  background-color: #5a2d1f;
+  color: #e2dedc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.image{
+  margin: 50px;
+  margin-left: 70px;
+  
+}
+
+.content{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-small;
+  margin-left: 51%;
+  margin-bottom: 20px;
+  color: #5a2d1f;
+}
+/* about oage styling */
+
+.about{
+  display: grid;
+}
+.about p{
+  color: #5a2d1f;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+aboutReal .aboutImage{
+  display: grid;
+}
+.about, .services{
+  display: flex;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+.abuimage img{
+  height: 450px;
+  width: 600px;
+  padding-left: 20px;
+  padding-top: 150px;
+}
+p, ul{
+  color: #5a2d1f;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h4{
+  color: #629b35;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/*  our services desinging and styling*/
+.y{
+  display: flex;
+}
+.y .ourpictures img{
+  margin-top: 200px;
+  width: 700px;
+  
+}
+
+
+
+/* footer */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #629b35;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+footer{
+  border-top: solid #629b35 2px ;
+  border-bottom: solid #1a1a1a 2px ;
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: red;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #e2dedc;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #f12020;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #e2dedc;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #5a2d1f;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #e2dedc;
+  height: 45px;
+  width: 50px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #5a2d1f;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #5a2d1f;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #e2dedc;
+  padding-left: 10px;
+  border: 2px solid #5a2d1f;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #e2dedc;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background:#e2dedc;
+}
+.bottom center span{
+  color: #5a2d1f;
+}
+.bottom center a{
+  color: #5a2d1f;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+
